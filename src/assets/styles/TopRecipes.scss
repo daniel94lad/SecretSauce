@@ -1,0 +1,17 @@
+@import './index.scss';
+
+.top{
+    &__container{
+        width: 100%;
+        background-color: lightgray;
+        margin: 20px 0;
+    }
+    &__recipes{
+        display: flex;
+        width: 100%;
+        flex-flow: wrap;
+        .recipeTile__border{
+            padding: 15px 20px;
+        }
+    }
+}

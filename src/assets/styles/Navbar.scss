@@ -1,0 +1,55 @@
+@import './index.scss';
+
+.navbar{
+    &__container{
+        padding: 5px 0;
+        background-color: $primary-background;
+        display: flex;
+        min-height: 50px;
+        align-items: center;
+    }
+    &__brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        &_container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        &_name{
+            margin-left: 10px;
+        }
+    }
+    &__searchBar{
+        width: 60%;
+        &_container{
+            width: 100%;
+            position: relative;
+            &-input{
+                width: 98%;
+                height: 30px;
+                padding-left: 10px;
+                border-radius: 8px;
+                border-style: solid;
+                border-color: $primary-color;
+                font-size: 16px;
+            }
+            &-icon{
+                position: absolute;
+                top: 8px;
+                right: 18px;
+                content: url('../static/magnifying-glass-solid.svg');
+                width: 20px;
+                filter: invert(18%) brightness(170%);
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

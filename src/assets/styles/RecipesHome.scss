@@ -1,0 +1,13 @@
+@import './index.scss';
+
+.homeRecipes{
+    &__container{
+        width: 100%;
+        background-color: lightgray;
+    }
+    &__recipes{
+        display: flex;
+        width: 100%;
+        flex-flow: wrap;
+    }
+}

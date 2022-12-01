@@ -1,0 +1,35 @@
+@import './index.scss';
+
+.quickMenuButton{
+    &__background{
+        background-color: white;
+        width: 110px;
+        height: 110px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 0;
+        padding: 0;
+        &:hover{
+            cursor: pointer;
+            background-color: lightgray;
+        }
+    }
+    &__container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon{
+        margin-bottom: 5px;
+    }
+    &__title{
+        background-color: lightgray;
+        width: 100%;
+        padding: 2px 0;
+    }
+}

@@ -1,0 +1,8 @@
+@import './index.scss';
+
+.quickMenu{
+    &__container{
+        display: flex;
+        justify-content: space-around;
+    }
+}

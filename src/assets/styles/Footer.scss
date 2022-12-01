@@ -1,0 +1,43 @@
+@import './index.scss';
+
+.footer{
+    &__container{
+        width: 100%;
+        background-color: $primary-background;
+        display: flex;
+        min-height: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__brand{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 10px;
+        &_container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+            img{
+                width: 30px;
+            }
+        }
+    }
+    &__copyright{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__media{
+        width: 30%;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+}

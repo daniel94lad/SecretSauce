@@ -1,0 +1,50 @@
+@import './index.scss';
+
+.heroHome{
+    &__container{
+        background-color: $primary-background;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__brand{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_background{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 50%;
+            padding: 20px;
+        }
+    }
+    &__divisor{
+        width: 20%;
+        height: 2px;
+        margin: 20px 0 10px 0;
+        background-color: black;
+    }
+    &__quote{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        &_paragraph{
+            font-size: 25px;
+            width: 60%;
+            text-align: center;
+        }
+    }
+    &__quickMenu{
+        width: 80%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+}
