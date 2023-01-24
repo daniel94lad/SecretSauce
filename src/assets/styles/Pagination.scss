@@ -1,0 +1,42 @@
+@import './index.scss';
+
+.pagination{
+    &__container{
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        column-gap: 2px;
+    }
+
+    &__item{
+        text-decoration: none;
+        margin: 0 1px;
+        &_button{
+            background-color: white;
+            border-radius: 3px;
+            border: 1px solid black;
+            cursor: pointer;
+            &:hover{
+                background-color: lightgray;
+            }
+        }
+        .disabled &_button{
+            &:hover{
+                background-color: transparent;
+                cursor:auto;
+            }
+        }
+        .active &_button{
+            background-color: lightblue;
+        }
+    }
+}
+
