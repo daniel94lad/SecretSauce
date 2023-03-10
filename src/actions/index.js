@@ -1,6 +1,6 @@
 import { SET_RECIPES } from './types';
 
-export const setPokemons = (payload) => ({
+export const setRecipes = (payload) => ({
     type: SET_RECIPES,
     payload,
 });
